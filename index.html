@@ -24,6 +24,8 @@
                <span v-on:click.ctrl="remove(index)" v-bind:class="{done: todo.done}">
                   {{todo.text}}
                </span>
+               
+               <button v-on:click="remove(index)">Remove</button>
             </li>
          </ul>
 
